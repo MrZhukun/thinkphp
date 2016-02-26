@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>更改</title>
+	</head>
+
+	<body>
+		<form action="{:u('edit')}" method="post">
+			名字：
+			<input type="text" name="name" value="{$Zoo_info.name}" />
+			<br /> 类别：
+			<input type="text" name="category" value="{$Zoo_info.category}" />
+			<br /> 数量：
+			<input type="text" name="num" value="{$Zoo_info.num}" />
+			<input type="hidden" name="id" value="{$Zoo_info.id}" />
+			<input type="submit" value="提交" />
+		</form>
+	</body>
+
+</html>

@@ -1,0 +1,12 @@
+[ 2016-02-22T14:59:16+08:00 ] 127.0.0.1 /2016/thinkphp/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-22T15:00:45+08:00 ] 127.0.0.1 /2016/thinkphp/index.php/Hame/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Hame
+

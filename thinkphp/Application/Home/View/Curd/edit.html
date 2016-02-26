@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>修改</title>
+	</head>
+
+	<body>
+		<form action="{:u('edit')}" method="post">
+			姓名：
+			<input type="text" name="name" value="{$person_data.name}" />
+			<br /> 年龄：
+			<input type="text" name="age" value="{$person_data.age}" />
+			<br /> 性别：
+			<input type="radio" name="sex" value="男"      <eq name="person_data.sex" value="男">checked="true"</eq>       />男
+			<input type="radio" name="sex" value="女" 	   <eq name="person_data.sex" value="女">checked="true"</eq>    	   />女
+			<br />
+			<input type="hidden" name="id" value="{$person_data.id}" />
+			<input type="submit" value="提交" />
+		</form>
+	</body>
+
+</html>

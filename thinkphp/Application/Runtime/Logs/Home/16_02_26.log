@@ -1,0 +1,25 @@
+[ 2016-02-26T08:58:04+08:00 ] 127.0.0.1 /2016/thinkphp/Home/Zoo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `tb_zoo` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `tb_zoo`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\wamp\www\2016\thinkphp\Application\Runtime\Cache\Home\4bf19818434dd7906d49ee89a8f4ac9c.php 第 22 行.
+NOTIC: [8] Use of undefined constant add - assumed 'add' G:\wamp\www\2016\thinkphp\Application\Runtime\Cache\Home\4bf19818434dd7906d49ee89a8f4ac9c.php 第 34 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\wamp\www\2016\thinkphp\Application\Runtime\Cache\Home\4bf19818434dd7906d49ee89a8f4ac9c.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
